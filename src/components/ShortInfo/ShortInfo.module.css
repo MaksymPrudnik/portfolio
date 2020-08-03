@@ -1,0 +1,35 @@
+.about_section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'txt img'
+    'stack img';
+    padding: 15px;
+    background-color: rgb(149, 0, 255);
+    border-bottom: 1.5px solid black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.about_text {
+    grid-area: txt;
+    padding: 10px;
+}
+
+.avatar {
+    grid-area: img;
+    justify-self: center;
+    align-self: center;
+    border-radius: 50%;
+}
+
+.tech_stack {
+    grid-area: stack;
+    padding: 10px;
+}
+.tech_stack ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
