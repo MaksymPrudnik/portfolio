@@ -8,7 +8,7 @@
     padding: 15px;
     background-color: rgb(149, 0, 255);
     border-bottom: 1.5px solid black;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Comic Sans MS", sans-serif, monospace;
 }
 
 .about_text {
