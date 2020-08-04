@@ -1,7 +1,7 @@
 import styles from './ShortInfo.module.css';
 
 const ShortInfo = () => (
-    <section className={styles.about_section}>
+    <section className={styles.about_section} id='about'>
         <div className={styles.about_text}>
             <h2>About me</h2>
             <p>Some general info about me</p>

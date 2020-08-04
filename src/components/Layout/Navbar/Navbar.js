@@ -39,9 +39,9 @@ class Navbar extends React.Component {
                         <div className={styles.nav_items}>
                             <ul>
                                 <Link href='/'><li><a>Home</a></li></Link>
-                                <Link href='/about'><li><a>About</a></li></Link>
                                 <Link href='/projects'><li><a>Projects</a></li></Link>
-                                <Link href='/contacts'><li><a>Contacts</a></li></Link>
+                                <Link href='/#about'><li><a>About</a></li></Link>
+                                <Link href='#contacts'><li><a>Contacts</a></li></Link>
                             </ul>
                         </div>
                     </nav>

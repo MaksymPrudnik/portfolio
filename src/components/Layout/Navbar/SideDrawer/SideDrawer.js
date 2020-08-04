@@ -11,9 +11,9 @@ const SideDrawer = props => {
     <nav className={drawerClasses}>
         <ul>
             <Link href="/"><li><a>Home</a></li></Link>
-            <Link href="/tours"><li><a>About</a></li></Link>
-            <Link href="/reviews"><li><a>Projects</a></li></Link>
-            <Link href="/contacts"><li><a>Contacts</a></li></Link>
+            <Link href="/projects"><li><a>Projects</a></li></Link>
+            <Link href="/#about"><li><a>About</a></li></Link>
+            <Link href="#contacts"><li><a>Contacts</a></li></Link>
         </ul>
     </nav>
     );

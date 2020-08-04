@@ -21,6 +21,9 @@
     justify-self: center;
     align-self: center;
     border-radius: 50%;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
 }
 
 .tech_stack {
@@ -32,4 +35,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
+}
+
+@media screen and (max-width: 400px) {
+    .about_section {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'img'
+        'txt'
+        'stack';
+    }
 }

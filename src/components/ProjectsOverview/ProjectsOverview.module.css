@@ -1,0 +1,21 @@
+.projects_overview {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a00a7;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.projects_overview a{
+    text-shadow: 0 0 10px black;
+}
+.projects_overview a:hover {
+    color: orange;
+    text-shadow: 0 0 4px orange;
+}
