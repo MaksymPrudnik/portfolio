@@ -1,7 +1,7 @@
 import styles from './DrawerToggleButton.module.css';
 
 const DrawerToggleButton = props => (
-    <button className={styles.toggle_button} onClick={props.click}>
+    <button className={styles.toggle_button} onClick={props.click} ariaLabel='open navigation'>
         <div className={styles.toggle_button_line}/>
         <div className={styles.toggle_button_line}/>
         <div className={styles.toggle_button_line}/>

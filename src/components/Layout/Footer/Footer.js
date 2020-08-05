@@ -5,16 +5,16 @@ import { FaGithub, FaLinkedin, FaInstagram, FaFacebook, FaSkype, FaAt } from 're
 const Footer = () => (
     <footer className={styles.footer} id='contacts'>
         <div className={styles.social}>
-            <a href='https://github.com/maksymprudnik' target='_blank'>
+            <a href='https://github.com/maksymprudnik' target='_blank' rel='noopener'>
                 <FaGithub />Github
             </a>
-            <a href='https://www.linkedin.com/in/maksym-prudnik-531a611a7/' target='_blank'>
+            <a href='https://www.linkedin.com/in/maksym-prudnik-531a611a7/' target='_blank' rel='noopener'>
                 <FaLinkedin />LinkedIn
             </a>
-            <a href='https://www.instagram.com/maxprudnik' target='_blank'>
+            <a href='https://www.instagram.com/maxprudnik' target='_blank' rel='noopener'>
                 <FaInstagram />Instagram
             </a>
-            <a href='https://www.facebook.com/Maksym.Prudnik' target='_blank'>
+            <a href='https://www.facebook.com/Maksym.Prudnik' target='_blank' rel='noopener'>
                 <FaFacebook />Facebook
             </a>
         </div>

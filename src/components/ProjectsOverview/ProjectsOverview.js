@@ -2,7 +2,7 @@ import styles from './ProjectsOverview.module.css';
 
 const ProjectsOverview = () => (
     <section className={styles.projects_overview}>
-        <h1>Projects</h1>
+        <h2>Projects</h2>
         <p>
             Here you can find projects, which I've made and some which are still in development.
             In all of them I've used best practices to improve performance, accessibility and 

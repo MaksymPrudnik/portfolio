@@ -9,6 +9,8 @@ export default function Home() {
   return (
     <Layout>
       <Head>
+        <meta name="Description" content="Portfolio home page. Author: Maksym Prudnik.
+        There is info about me and my contacts." />
         <title>Home</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>

@@ -7,6 +7,8 @@ import ProjectsOverview from '../components/ProjectsOverview/ProjectsOverview';
 const Projects = () => (
     <Layout>
         <Head>
+            <meta name="Description" content="Portfolio projects page. Author: Maksym Prudnik.
+            Here you can find information about finished and current projects." />
             <title>Projects</title>
         </Head>
         <ProjectsOverview />

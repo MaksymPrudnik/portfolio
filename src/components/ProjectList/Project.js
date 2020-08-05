@@ -21,8 +21,8 @@ const Project = (props) => {
         <div className={styles.preview}>
             <img src={pathToImg} alt='project screenshot'/>
             <div className={styles.links_box}>
-                <a href={links[0]} target='_blank'><FaDesktop /> Live</a>
-                <a href={links[1]} target='_blank' style={{marginLeft: 'auto'}}><FaCode /> Code</a>
+                <a href={links[0]} target='_blank' rel='noopener'><FaDesktop /> Live</a>
+                <a href={links[1]} target='_blank' rel='noopener' style={{marginLeft: 'auto'}}><FaCode /> Code</a>
             </div>
         </div>
     </section>
