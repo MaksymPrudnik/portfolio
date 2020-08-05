@@ -1,6 +1,6 @@
 .side_drawer {
     height: 100vh;
-    background-color: #afaa;
+    background-color: #4a0a3daa;
     box-shadow: 2px 0px 5px rgba(0,0,0,0.5);
     position: fixed;
     top: 0;
@@ -29,7 +29,7 @@
 }
 
 .side_drawer a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;

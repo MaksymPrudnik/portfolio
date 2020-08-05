@@ -85,4 +85,7 @@
     .preview a {
         font-size: 1rem;
     }
+    .tech_stack ul {
+        padding-inline-start: 15px;
+    }
 }

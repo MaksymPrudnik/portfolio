@@ -1,7 +1,7 @@
 import Project from './Project';
 
 const ProjectList = () => {
-    const projectArray = [
+    const finishedProjects = [
         {
             name: 'Robofriends',
             description: `Project using main features of Reactjs, API calls (robohash.org
@@ -33,13 +33,50 @@ const ProjectList = () => {
             color: ' '
         }
     ]
+    const inDevelopmentProjects = [
+        {
+            name: 'Twinstravel',
+            description: `Project for travel agency. Main features that should be from the first launch
+            are tours listing and filtering, possibility to contact and order tours. And also a good and
+            intuitive admin interface for content makers.(in tech stack some technologies only WILL be 
+            used so i marked them with +)`,
+            techStack: [
+                'HTML5/CSS3', 'ReactJS', 'Nextjs', 'PostgreSQL(+)',
+                'Redis(+)', 'Knexjs(+)', 'Bcryptjs(+)', 'Redux(+)',
+                'Redux-Thunk(+)', 'tachyons', 'API(+)', 'Responsive UI'
+            ],
+            pathToImg: '/img/projects/twinstravel.png',
+            links: [
+                'https://twinstravel.vercel.app/',
+                'https://github.com/MaksymPrudnik/twinstravel'
+            ],
+            color: ' '
+        }
+    ]
+    const color1 = 'b31493';
+    const color2 = '4a0a3d';
     return (
         <div className='projects_section' id='projects_section'>
-            {projectArray.map((project, i) => {
+            {finishedProjects.map((project, i) => {
                 if (i % 2) {
-                    return <Project key={i} project={Object.assign({}, project, {color: '062752'})} />
+                    return <Project key={i} project={Object.assign({}, project, {color: color1})} />
                 } else {
-                    return <Project key={i} project={Object.assign({}, project, {color: '520652'})} />
+                    return <Project key={i} project={Object.assign({}, project, {color: color2})} />
+                }
+            })}
+            <h3 
+                style={{
+                    height: '10vh', width: '100%',
+                    textAlign: 'center', borderBottom: '2px solid black',
+                    marginBottom: '0', fontWeight: '700',
+                    fontSize: '1.4rem'
+                }}
+            >In development:</h3>
+            {inDevelopmentProjects.map((project, i) => {
+                if (i % 2) {
+                    return <Project key={i} project={Object.assign({}, project, {color: color1})} />
+                } else {
+                    return <Project key={i} project={Object.assign({}, project, {color: color2})} />
                 }
             })}
         </div>

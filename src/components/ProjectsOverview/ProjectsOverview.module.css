@@ -5,11 +5,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #3a00a7;
+    background-color: #7f0f68;
     color: white;
     text-align: center;
     font-size: 1.3rem;
     font-weight: 700;
+    border-bottom: 2px solid black;
 }
 
 .projects_overview a{

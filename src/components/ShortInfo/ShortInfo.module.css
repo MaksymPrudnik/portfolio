@@ -6,9 +6,11 @@
     'txt img'
     'stack img';
     padding: 15px;
-    background-color: rgb(149, 0, 255);
+    background-color: #674bab;
     border-bottom: 1.5px solid black;
+    font-size: 1.1rem;
     font-family: "Comic Sans MS", sans-serif, monospace;
+    font-weight: 600;
 }
 
 .about_text {
@@ -20,6 +22,7 @@
     grid-area: img;
     justify-self: center;
     align-self: center;
+    border: 2px solid grey;
     border-radius: 50%;
     width: 100%;
     max-width: 350px;
@@ -44,5 +47,11 @@
         'img'
         'txt'
         'stack';
+    }
+    .tech_stack ul {
+        padding-inline-start: 15px;
+    }
+    .tech_stack li {
+        margin-right: 10px;
     }
 }
