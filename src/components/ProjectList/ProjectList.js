@@ -3,15 +3,14 @@ import Project from './Project';
 const ProjectList = () => {
     const finishedProjects = [
         {
-            name: 'Robofriends',
-            description: `Project using main features of Reactjs, API calls (robohash.org
-                and jsonplaceholder.typicode.com) and responsive design.
-                Using react props and state has very fast user interactions.`,
-            techStack: ['HTML5/CSS3', 'ReactJS', 'Redux', 'Redux-Thunk', 'tachyons', 'API', 'Responsive UI'],
-            pathToImg: '/img/projects/robofriends.png',
+            name: 'Sociaten',
+            description: `Social blog where you can create an account, add post, comment them and find some
+            new friends.`,
+            techStack: ['HTML5/CSS3', 'ReactJS', 'Redux', 'Redux-Thunk', 'React-router', 'expressjs', 'MongoDB/mongoose'],
+            pathToImg: '/img/projects/sociaten.png',
             links: [
-                'https://maksymprudnik.github.io/robofriends/',
-                'https://github.com/MaksymPrudnik/robofriends'
+                'https://github.com/MaksymPrudnik/social-blog',
+                'https://sociaten.herokuapp.com/'
             ],
             color: ' '
         },
@@ -31,7 +30,20 @@ const ProjectList = () => {
                 'https://github.com/MaksymPrudnik/smartbrain'
             ],
             color: ' '
-        }
+        },
+        {
+            name: 'Robofriends',
+            description: `Project using main features of Reactjs, API calls (robohash.org
+                and jsonplaceholder.typicode.com) and responsive design.
+                Using react props and state has very fast user interactions.`,
+            techStack: ['HTML5/CSS3', 'ReactJS', 'Redux', 'Redux-Thunk', 'tachyons', 'API', 'Responsive UI'],
+            pathToImg: '/img/projects/robofriends.png',
+            links: [
+                'https://maksymprudnik.github.io/robofriends/',
+                'https://github.com/MaksymPrudnik/robofriends'
+            ],
+            color: ' '
+        },
     ]
     const inDevelopmentProjects = [
         {
