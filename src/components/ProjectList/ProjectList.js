@@ -9,8 +9,8 @@ const ProjectList = () => {
             techStack: ['HTML5/CSS3', 'ReactJS', 'Redux', 'Redux-Thunk', 'React-router', 'expressjs', 'MongoDB/mongoose'],
             pathToImg: '/img/projects/sociaten.png',
             links: [
-                'https://github.com/MaksymPrudnik/social-blog',
-                'https://sociaten.herokuapp.com/'
+                'https://sociaten.herokuapp.com/',
+                'https://github.com/MaksymPrudnik/social-blog'
             ],
             color: ' '
         },
